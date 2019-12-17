@@ -11,9 +11,10 @@
     <title>扫码下载</title>
 </head>
 <body>
-<div>
-    <img src="public/images/LutraLutra.jpg" height="50%" width="50%"/>
+<div style="text-align: center">
+    <img src="public/images/download.png" height="80%" width="30%"/>
+    welcome
 </div>
-welcomewelcomewelcomewelcomewelcomewelcome
+
 </body>
 </html>
