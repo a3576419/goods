@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="goods" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b399a9cb-ea14-4b33-8b89-cd0b2b80d7d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/goods_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/META-INF/goods.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/controller/ItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/pojo/ConfData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/pojo/MyShopBean$Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/pojo/MyShopBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/com/demo/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/jsp/item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-collections-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/json-20131018.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-jms-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-messaging-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/goods_war_exploded/images/LutraLutra.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\DevelopmentTools\JavaEE\work\goods\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1UxBzo2H40tEOQnyZDBgbsIRXQX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentTools\JavaEE\goods\WebContent" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentTools\JavaEE\goods\WebContent\images" />
+      <recent name="D:\DevelopmentTools\JavaEE\goods\WebContent\WEB-INF\lib" />
+      <recent name="D:\DevelopmentTools\JavaEE\goods\WebContent\WEB-INF\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps/ROOT">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </file>
+        <artifact name="goods:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/goods" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_goods_3" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="25916" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="goods:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.3365801" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b399a9cb-ea14-4b33-8b89-cd0b2b80d7d7" name="Default Changelist" comment="" />
+      <created>1576288630531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576288630531</updated>
+      <workItem from="1576288643929" duration="19823000" />
+      <workItem from="1576317018445" duration="659000" />
+      <workItem from="1576333890226" duration="3145000" />
+      <workItem from="1576383973734" duration="248000" />
+      <workItem from="1576384294054" duration="13519000" />
+      <workItem from="1576427832214" duration="3205000" />
+      <workItem from="1576461290832" duration="25211000" />
+      <workItem from="1576515740780" duration="1843000" />
+      <workItem from="1576552112296" duration="2486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Notifications" timestamp="1576384207134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1576384207134" />
+    <state x="860" y="128" key="#Project_Structure" timestamp="1576305655923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="860" y="128" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576305655923" />
+    <state x="722" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576478794420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576478794420" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1576492230914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576492230914" />
+    <state x="579" y="151" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1576291258703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="151" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1576291258703" />
+    <state x="932" y="442" width="507" height="169" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1576289473962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="932" y="442" width="507" height="169" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1576289473962" />
+    <state x="906" y="386" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1576289661804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="906" y="386" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576289661804" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576488826578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576488826578" />
+    <state x="92" y="120" key="CommitChangelistDialog2" timestamp="1576554428376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576554428376" />
+    <state x="284" y="130" key="FileChooserDialogImpl" timestamp="1576554492986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="284" y="130" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576554492986" />
+    <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog" timestamp="1576552831027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576552831027" />
+    <state width="1225" height="509" key="GridCell.Tab.0.bottom" timestamp="1576555047112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047112" />
+    <state width="1225" height="509" key="GridCell.Tab.0.center" timestamp="1576555047111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047111" />
+    <state width="1225" height="509" key="GridCell.Tab.0.left" timestamp="1576555047111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047111" />
+    <state width="1225" height="509" key="GridCell.Tab.0.right" timestamp="1576555047112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047112" />
+    <state width="1225" height="509" key="GridCell.Tab.1.bottom" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.1.center" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.1.left" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.1.right" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.2.bottom" timestamp="1576555047114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047114" />
+    <state width="1225" height="509" key="GridCell.Tab.2.center" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.2.left" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state width="1225" height="509" key="GridCell.Tab.2.right" timestamp="1576555047113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1225" height="509" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576555047113" />
+    <state x="254" y="249" key="RollbackChangesDialog" timestamp="1576554522127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="254" y="249" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576554522127" />
+    <state x="440" y="97" key="SettingsEditor" timestamp="1576429297791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576429297791" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1576552206769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576552206769" />
+    <state x="647" y="160" width="626" height="720" key="find.popup" timestamp="1576387079170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="160" width="626" height="720" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576387079170" />
+    <state x="669" y="108" key="new project wizard" timestamp="1576309482154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="108" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576309482154" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1576393313168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576393313168" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576479606773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576479606773" />
+    <state x="1049" y="191" key="spring file set editor" timestamp="1576289573711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1049" y="191" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1576289573711" />
+    <state x="713" y="277" key="svn.repositoryBrowser" timestamp="1576554956501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="277" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1576554956501" />
+  </component>
+</project>

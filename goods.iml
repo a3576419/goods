@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <conelement value="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/../../goods/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/../../goods/config" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../goods/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../goods/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../../goods/config/spring/applicationContext-dao.xml</file>
+          <file>file://$MODULE_DIR$/../../goods/config/spring/applicationContext-service.xml</file>
+          <file>file://$MODULE_DIR$/../../goods/config/spring/applicationContext-trans.xml</file>
+          <file>file://$MODULE_DIR$/../../goods/config/spring/springmvc.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../goods/build/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../goods">
+      <sourceFolder url="file://$MODULE_DIR$/../../goods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../goods/config" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="aopalliance-1.0" level="project" />
+  </component>
+</module>

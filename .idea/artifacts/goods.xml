@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="goods">
+    <output-path>F:/桌面/goods</output-path>
+    <root id="archive" name="goods.war">
+      <element id="artifact" artifact-name="goods:war exploded" />
+    </root>
+  </artifact>
+</component>

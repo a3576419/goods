@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mapper.GoodsMapper">
+	<select id="getItemList" parameterType="string" resultType="Goods">
+		select * FROM goods
+	</select>
+	<insert id="insertItem" parameterType="Goods">
+		INSERT INTO goods (g_oldPrice,g_selfPrice,g_price,g_title)VALUES(#{g_oldPrice},#{g_selfPrice},#{g_price},#{g_title})
+	</insert>
+
+	
+	<select id="getItemCount" resultType="int">
+		SELECT COUNT(*) FROM goods
+	</select>
+	<select id="getItemListByPage" parameterType="MyShopBean" resultType="Goods">
+		SELECT
+			g_oldPrice,
+			g_selfPrice,
+			g_price,
+			g_sharePrice,
+			g_title,
+			g_img,
+			g_subtitle,
+			g_status,
+			g_video,
+			g_videoImg,
+			g_salesCount,
+			g_inventoryNum,
+			g_maxSales
+		FROM goods
+ 		LIMIT #{start}, #{itemCount}
+	</select>
+</mapper>
